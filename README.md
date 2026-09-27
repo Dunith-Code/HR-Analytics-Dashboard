@@ -75,11 +75,11 @@ HR-Analytics-Dashboard/
  
 ```mermaid
 flowchart LR
-    A[Kaggle CSV<br/>Raw Dataset] --> B[Python<br/>Cleaning & Transformation]
-    B --> C[PostgreSQL<br/>Structured Storage]
-    C --> D[SQL<br/>Exploratory Analysis]
-    C --> E[Power BI<br/>DAX Measures & Dashboard]
-    E --> F[End User<br/>HR Insights]
+    A[Kaggle CSV<br>Raw Dataset] --> B[Python<br>Cleaning & Transformation]
+    B --> C[PostgreSQL<br>Structured Storage]
+    C --> D[SQL<br>Exploratory Analysis]
+    C --> E[Power BI<br>DAX Measures & Dashboard]
+    E --> F[End User<br>HR Insights]
 ```
  
 The pipeline moves data through four stages: raw ingestion, Python-based cleaning, PostgreSQL storage, and Power BI visualization, with SQL used in parallel for exploratory validation before building the dashboard.
