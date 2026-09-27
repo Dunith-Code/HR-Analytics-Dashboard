@@ -1,0 +1,21 @@
+# Raw dataset (Kaggle license - don't redistribute)
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Power BI temp files
+*.pbix.lock
+
+# Unrelated local clutter
+a1/
+anaconda_projects/
+archive.zip
+workspace.code-workspace
